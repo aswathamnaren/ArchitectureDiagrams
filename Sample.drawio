@@ -7,8 +7,8 @@
         <mxCell id="1DmagxJH7YWcO8vsQb3A-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="1DmagxJH7YWcO8vsQb3A-1" target="1DmagxJH7YWcO8vsQb3A-4">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="330" y="260" />
               <mxPoint x="330" y="300" />
+              <mxPoint x="330" y="340" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -18,17 +18,17 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="1DmagxJH7YWcO8vsQb3A-1" value="Item-suggested-sell-service (Instance1)" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="160" y="200" width="120" height="120" as="geometry" />
+          <mxGeometry x="160" y="240" width="120" height="120" as="geometry" />
         </mxCell>
         <mxCell id="1DmagxJH7YWcO8vsQb3A-4" value="Local Cache" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="210" y="280" width="70" height="40" as="geometry" />
+          <mxGeometry x="210" y="320" width="70" height="40" as="geometry" />
         </mxCell>
         <mxCell id="1DmagxJH7YWcO8vsQb3A-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.4;entryY=1.025;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="1DmagxJH7YWcO8vsQb3A-1" target="1DmagxJH7YWcO8vsQb3A-4">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="120" y="260" />
-              <mxPoint x="120" y="340" />
-              <mxPoint x="238" y="340" />
+              <mxPoint x="120" y="300" />
+              <mxPoint x="120" y="380" />
+              <mxPoint x="238" y="380" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -44,13 +44,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="1DmagxJH7YWcO8vsQb3A-12" value="Consumer" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="300" y="40" width="120" height="120" as="geometry" />
+          <mxGeometry x="300" y="80" width="120" height="120" as="geometry" />
         </mxCell>
         <mxCell id="1DmagxJH7YWcO8vsQb3A-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="1DmagxJH7YWcO8vsQb3A-18" target="1DmagxJH7YWcO8vsQb3A-19" parent="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="610" y="260" />
               <mxPoint x="610" y="300" />
+              <mxPoint x="610" y="340" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -60,17 +60,17 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="1DmagxJH7YWcO8vsQb3A-18" value="Item-suggested-sell-service (Instance2)" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="440" y="200" width="120" height="120" as="geometry" />
+          <mxGeometry x="440" y="240" width="120" height="120" as="geometry" />
         </mxCell>
         <mxCell id="1DmagxJH7YWcO8vsQb3A-19" value="Local Cache" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="490" y="280" width="70" height="40" as="geometry" />
+          <mxGeometry x="490" y="320" width="70" height="40" as="geometry" />
         </mxCell>
         <mxCell id="1DmagxJH7YWcO8vsQb3A-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.4;entryY=1.025;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" source="1DmagxJH7YWcO8vsQb3A-18" target="1DmagxJH7YWcO8vsQb3A-19" parent="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="400" y="260" />
-              <mxPoint x="400" y="340" />
-              <mxPoint x="518" y="340" />
+              <mxPoint x="400" y="300" />
+              <mxPoint x="400" y="380" />
+              <mxPoint x="518" y="380" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -80,10 +80,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="1DmagxJH7YWcO8vsQb3A-23" value="&lt;ul&gt;&lt;li&gt;Offers faster access as it resides in memory on the same instance.&lt;/li&gt;&lt;li&gt;No need for separate installation or configuration.&lt;/li&gt;&lt;/ul&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
-          <mxGeometry x="40" y="50" width="230" height="100" as="geometry" />
+          <mxGeometry x="40" y="90" width="230" height="100" as="geometry" />
         </mxCell>
         <mxCell id="1DmagxJH7YWcO8vsQb3A-24" value="&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Data duplication&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Cache updates in one instance are not visible to others, leading to potential stale data issues.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Cache is lost if the instance restarts, requiring reloading of data.&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
-          <mxGeometry x="480" y="40" width="230" height="100" as="geometry" />
+          <mxGeometry x="480" y="80" width="230" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
