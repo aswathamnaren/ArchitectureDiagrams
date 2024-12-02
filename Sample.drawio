@@ -1,9 +1,84 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.1">
   <diagram name="Page-1" id="5IWywqPwiNhNZYy0IlvY">
-    <mxGraphModel>
+    <mxGraphModel dx="880" dy="426" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="1DmagxJH7YWcO8vsQb3A-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="1DmagxJH7YWcO8vsQb3A-1" target="1DmagxJH7YWcO8vsQb3A-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="330" y="260" />
+              <mxPoint x="330" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1DmagxJH7YWcO8vsQb3A-11" value="Put Data" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1DmagxJH7YWcO8vsQb3A-10">
+          <mxGeometry x="0.0857" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1DmagxJH7YWcO8vsQb3A-1" value="Item-suggested-sell-service (Instance1)" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="160" y="200" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="1DmagxJH7YWcO8vsQb3A-4" value="Local Cache" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="280" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1DmagxJH7YWcO8vsQb3A-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.4;entryY=1.025;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="1DmagxJH7YWcO8vsQb3A-1" target="1DmagxJH7YWcO8vsQb3A-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="120" y="260" />
+              <mxPoint x="120" y="340" />
+              <mxPoint x="238" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1DmagxJH7YWcO8vsQb3A-9" value="Get Data" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1DmagxJH7YWcO8vsQb3A-8">
+          <mxGeometry x="-0.4008" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1DmagxJH7YWcO8vsQb3A-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="1DmagxJH7YWcO8vsQb3A-12" target="1DmagxJH7YWcO8vsQb3A-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1DmagxJH7YWcO8vsQb3A-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="1DmagxJH7YWcO8vsQb3A-12" target="1DmagxJH7YWcO8vsQb3A-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1DmagxJH7YWcO8vsQb3A-12" value="Consumer" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="300" y="40" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="1DmagxJH7YWcO8vsQb3A-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="1DmagxJH7YWcO8vsQb3A-18" target="1DmagxJH7YWcO8vsQb3A-19" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="610" y="260" />
+              <mxPoint x="610" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1DmagxJH7YWcO8vsQb3A-17" value="Put Data" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1DmagxJH7YWcO8vsQb3A-16">
+          <mxGeometry x="0.0857" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1DmagxJH7YWcO8vsQb3A-18" value="Item-suggested-sell-service (Instance2)" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="440" y="200" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="1DmagxJH7YWcO8vsQb3A-19" value="Local Cache" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="280" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1DmagxJH7YWcO8vsQb3A-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.4;entryY=1.025;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" source="1DmagxJH7YWcO8vsQb3A-18" target="1DmagxJH7YWcO8vsQb3A-19" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="400" y="260" />
+              <mxPoint x="400" y="340" />
+              <mxPoint x="518" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1DmagxJH7YWcO8vsQb3A-21" value="Get Data" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1DmagxJH7YWcO8vsQb3A-20">
+          <mxGeometry x="-0.4008" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
