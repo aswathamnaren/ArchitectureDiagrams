@@ -79,6 +79,12 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="1DmagxJH7YWcO8vsQb3A-23" value="&lt;ul&gt;&lt;li&gt;Offers faster access as it resides in memory on the same instance.&lt;/li&gt;&lt;li&gt;No need for separate installation or configuration.&lt;/li&gt;&lt;/ul&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
+          <mxGeometry x="40" y="50" width="230" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="1DmagxJH7YWcO8vsQb3A-24" value="&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Data duplication&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Cache updates in one instance are not visible to others, leading to potential stale data issues.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Cache is lost if the instance restarts, requiring reloading of data.&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
+          <mxGeometry x="480" y="40" width="230" height="100" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
