@@ -80,13 +80,86 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="1DmagxJH7YWcO8vsQb3A-23" value="&lt;ul&gt;&lt;li&gt;Offers faster access as it resides in memory on the same instance.&lt;/li&gt;&lt;li&gt;No need for separate installation or configuration.&lt;/li&gt;&lt;/ul&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
-          <mxGeometry x="40" y="90" width="230" height="100" as="geometry" />
+          <mxGeometry x="40" y="80" width="230" height="100" as="geometry" />
         </mxCell>
         <mxCell id="1DmagxJH7YWcO8vsQb3A-24" value="&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Data duplication&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Cache updates in one instance are not visible to others, leading to potential stale data issues.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Cache is lost if the instance restarts, requiring reloading of data.&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
           <mxGeometry x="480" y="80" width="230" height="100" as="geometry" />
         </mxCell>
         <mxCell id="1DmagxJH7YWcO8vsQb3A-25" value="Spring Boot Local Cache" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="270" y="30" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1DmagxJH7YWcO8vsQb3A-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="1DmagxJH7YWcO8vsQb3A-28" target="1DmagxJH7YWcO8vsQb3A-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1DmagxJH7YWcO8vsQb3A-54" value="Get Data" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1DmagxJH7YWcO8vsQb3A-50">
+          <mxGeometry x="0.5294" y="3" relative="1" as="geometry">
+            <mxPoint x="-40" y="-37" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1DmagxJH7YWcO8vsQb3A-28" value="Item-suggested-sell-service (Instance1)" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="180" y="680" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="1DmagxJH7YWcO8vsQb3A-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" source="1DmagxJH7YWcO8vsQb3A-34" target="1DmagxJH7YWcO8vsQb3A-28" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1DmagxJH7YWcO8vsQb3A-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="1DmagxJH7YWcO8vsQb3A-34" target="1DmagxJH7YWcO8vsQb3A-37" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1DmagxJH7YWcO8vsQb3A-34" value="Consumer" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="320" y="520" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="1DmagxJH7YWcO8vsQb3A-48" value="Put Data" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="1DmagxJH7YWcO8vsQb3A-37" target="1DmagxJH7YWcO8vsQb3A-44">
+          <mxGeometry x="-0.5556" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1DmagxJH7YWcO8vsQb3A-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="1DmagxJH7YWcO8vsQb3A-37" target="1DmagxJH7YWcO8vsQb3A-44">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530" y="810" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="530" y="890" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1DmagxJH7YWcO8vsQb3A-53" value="Get Data" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1DmagxJH7YWcO8vsQb3A-52">
+          <mxGeometry x="-0.4" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1DmagxJH7YWcO8vsQb3A-37" value="Item-suggested-sell-service (Instance2)" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="470" y="680" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="1DmagxJH7YWcO8vsQb3A-41" value="&lt;ul&gt;&lt;li&gt;Shared across all microservice instances, ensuring data consistency&lt;/li&gt;&lt;li&gt;Eliminates duplication of cache data.&lt;/li&gt;&lt;li&gt;Data can survive microservice restarts&lt;/li&gt;&lt;/ul&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
+          <mxGeometry x="60" y="520" width="230" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="1DmagxJH7YWcO8vsQb3A-42" value="&lt;ul&gt;&lt;li&gt;Requires additional setup,&lt;/li&gt;&lt;li&gt;Slight delay compared to in-memory local cache due to network calls.&lt;/li&gt;&lt;li&gt;Managed Redis services can be more expensive compared to local caches&lt;/li&gt;&lt;/ul&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
+          <mxGeometry x="500" y="520" width="230" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="1DmagxJH7YWcO8vsQb3A-43" value="Redis Cache" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="290" y="480" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1DmagxJH7YWcO8vsQb3A-44" value="Redis Cache" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="320" y="830" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="1DmagxJH7YWcO8vsQb3A-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="1DmagxJH7YWcO8vsQb3A-28" target="1DmagxJH7YWcO8vsQb3A-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1DmagxJH7YWcO8vsQb3A-49" value="Put Data" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1DmagxJH7YWcO8vsQb3A-45">
+          <mxGeometry x="-0.5176" y="-2" relative="1" as="geometry">
+            <mxPoint x="-11" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1DmagxJH7YWcO8vsQb3A-55" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;PROS&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="100" y="50" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1DmagxJH7YWcO8vsQb3A-56" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;CONS&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="530" y="50" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1DmagxJH7YWcO8vsQb3A-57" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;PROS&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="100" y="490" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1DmagxJH7YWcO8vsQb3A-58" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;CONS&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="550" y="480" width="90" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
